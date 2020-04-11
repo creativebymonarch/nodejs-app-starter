@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev-init": "npm i && sudo npm i -g nodemon",
+    "prod-init": "npm i && sudo npm i -g pm2",
+    "start": "pm2 start app",
+    "dev": "nodemon bin/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "^4.1.0",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.8.0",
+    "morgan": "^1.9.1"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "development": {
+    "config_id": "development",
+    "host": "localhost:3000",
+    "domain": "localhost",
+    "app_name": "Your app name",
+    "app_desc": "Your app description",
+    "root": "http://localhost:3000",
+    "app_port": 3000,
+    "db": "[URL OF THE DB]"
+  },
+  "testing": {
+    "config_id": "testing",
+    "host": "localhost:3000",
+    "domain": "localhost",
+    "app_name": "Your app name",
+    "app_desc": "Your app description",
+    "root": "http://localhost:3000",
+    "app_port": 3000,
+    "db": "[URL OF THE DB]"
+  },
+  "staging": {
+    "config_id": "staging",
+    "host": "localhost:3000",
+    "domain": "localhost",
+    "app_name": "Your app name",
+    "app_desc": "Your app description",
+    "root": "http://localhost:3000",
+    "app_port": 3000,
+    "db": "[URL OF THE DB]"
+  },
+  "production": {
+    "config_id": "production",
+    "host": "app.domain.com",
+    "domain": "domain.com",
+    "app_name": "Your app name",
+    "app_desc": "Your app description",
+    "root": "https://app.domain.com",
+    "app_port": 3000,
+    "db": "[URL OF THE DB]"
+  }
+}

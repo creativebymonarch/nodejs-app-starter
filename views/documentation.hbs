@@ -1,0 +1,94 @@
+<div class="__m-banner-start __m-dark-bg">
+    <div class="__m-container">
+
+        <p class="__m-margin-b-2x">
+            <img src="/svg/logo-node-creative.svg" style="max-width: 100px" alt="Logo Node/Creative">
+        </p>
+
+        <p class="__m-c-green-light __m-label-title">Node.js app starter</p>
+        <h1 class="__m-h1" style="margin-top: 10px;">Documentation</h1>
+        <p class="__m-huge-edito">This starter pack has been created to save time on Node.js project. You can easily modify the code or add your own modules.</p>
+
+        <hr>
+
+        <h2 class="__m-h2">Usage</h2>
+
+        <p class="__m-margin-b">This starter app uses Handlebars as template rendering & Mongoose (MongoDB) for database. You can select what type of
+            client connection you want.</p>
+            <p>Here a view of the <code class="__c-single">package.json</code> :</p>
+
+
+        <div class="__c-code-block">
+            <code><pre>"dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "^4.1.0",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.8.0",
+    "morgan": "^1.9.1"
+}</pre></code></div>
+
+        <hr>
+
+        <h2 class="__m-h2">Architecture</h2>
+
+        <h3 class="__m-h3">MVC</h3>
+
+        <p>It's a simple MVC architecture. You can easily code your features in the <code class="__c-single">controllers</code> folders and render the HTML in the <code class="__c-single">views</code> folder.</p>
+
+        <hr>
+
+        <h2 class="__m-h2">Configuration</h2>
+
+        <h3 class="__m-h3">config.json</h3>
+
+        <p>You can easily configure and edit you app with the <code class="__c-single">config.json</code> file in <code class="__c-single">./core/config</code> folder. Example of entry :</p>
+
+        <div class="__c-code-block">
+            <code><pre>"development": {
+    "config_id": "development", //Don't touch
+    "host": "localhost:3000", //Your Node.js host
+    "domain": "localhost",
+    "app_name": "Your app name",
+    "app_desc": "Your app description",
+    "root": "http://localhost:3000",
+    "app_port": 3000,
+    "db": "[URL OF THE DB]"
+  },</pre>
+            </code>
+        </div>
+
+        <p class="__m-margin-b">Retrieve this configuration in the global variable <code class="__c-single">global.CONFIG_CURRENT</code> and use it in the entire app.</p>
+
+        <p>You can also edit the <code class="__c-single">ecosystem.config.js</code> to run the app on production mode.</p>
+
+        <p></p>
+
+        <h3 class="__m-h3">Server</h3>
+
+        <p class="__m-margin-b-2x">The server & bin configuration are in <code class="__c-single">./bin/app.js</code>.</p>
+
+        <hr>
+        <p class="__m-text-center"><img src="/favicon.png" alt="Logo" style="max-width: 50px"></p>
+        <p class="__m-text-center __m-topReveal-long __m-label-title __m-medium"><span class="__m-c-pink-dark">By <a href="https://creative.monarchstudio.fr" target="_blank" rel="noopener" class="__m-c-pink-dark">.creative</a></span></p>
+        <p class="__m-text-center __m-topReveal-long __m-margin-b-3x __m-label-title __m-medium">a service of <a href="https://www.monarchstudio.fr" target="_blank" rel="noopener">Monarch Studio</a></p>
+    </div>
+</div>
+
+
+<style>
+    .__c-code-block {
+        background-color: #121213;
+        padding: 20px;
+        border-radius: 4px;
+    }
+    code.__c-single {
+        color: #38e596 !important;
+        background: #1c231f;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+</style>

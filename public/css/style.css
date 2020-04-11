@@ -1,0 +1,9 @@
+/*
+* Custom CSS
+*/
+
+body {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Arial",sans-serif !important;
+    height: 100%;
+    min-height: 100vh;
+}
