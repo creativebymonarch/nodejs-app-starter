@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev-init": "npm i && sudo npm i -g nodemon",
-    "prod-init": "npm i && sudo npm i -g pm2",
-    "start": "pm2 start app",
-    "dev": "nodemon bin/app.js"
+    "dev-init": "sudo npm i -g nodemon && npm install",
+    "prod-init": "sudo npm i -g pm2 && npm install",
+    "dev": "nodemon bin/app.js",
+    "start": "pm2 start ecosystem.config.js --env production",
+    "restart": "pm2 restart app"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
