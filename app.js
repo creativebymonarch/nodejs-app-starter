@@ -2,10 +2,14 @@
  * Module dependencies.
  */
 const express = require('express');
-const createError = require('http-errors');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const hbs = require('hbs');
+/**
+ * DB Require
+ * Uncomment to use DB connection
+ */
+//const db = require('./core/db/db');
 /**
  * Structures const
  */
